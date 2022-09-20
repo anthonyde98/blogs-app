@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+   /* Estilos barra (thumb) de scroll */
+   *::-webkit-scrollbar-thumb {
+    background: rgb(1, 30, 37);
+    border-radius: 10px;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background: rgb(1, 40, 49);
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background: rgb(1, 40, 49);
+    box-shadow: 0 0px 1px 1px rgba(0, 0, 0, 0.31);
+  }
+  
+   /* Estilos track de scroll */
+   *::-webkit-scrollbar-track {
+    background: #e1e1e121;
+    border-radius: 10px;
+  }
+  
+  *::-webkit-scrollbar-track:hover, 
+  *::-webkit-scrollbar-track:active {
+    background: #e1e1e121;
+  }

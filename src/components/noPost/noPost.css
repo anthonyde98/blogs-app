@@ -1,0 +1,11 @@
+.noPost{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    font-weight: bold;
+    display: block;
+    margin: 50px auto;
+}

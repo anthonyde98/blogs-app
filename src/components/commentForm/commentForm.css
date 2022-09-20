@@ -1,0 +1,8 @@
+.addComment{
+    background-color: rgba(252, 252, 252, 0.801);
+    width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+}

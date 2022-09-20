@@ -1,0 +1,7 @@
+.comments{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    padding: 5px;
+    border-radius: 10px;
+}

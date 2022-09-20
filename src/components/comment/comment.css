@@ -1,0 +1,73 @@
+.comment{
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 980px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+.comment .name{
+    font-size: 10px;
+    color: rgb(35, 47, 47);
+    background-color: rgb(212, 212, 212);
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.comment .text{
+    background-color: aliceblue;
+    font-size: 12px;
+    padding: 4px;
+    margin: 2px auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    height: fit-content;
+}
+
+.comment .date{
+    color: rgb(172, 172, 172);
+    text-align: right;
+    font-size: 8px;
+}
+
+.comment p{
+    margin: 0;
+}
+
+.comment .comment-btns{
+    position: absolute;
+    margin-top: -9px;
+    font-size: 10px;
+}
+
+.comment-btns i {
+    padding: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.comment-btns i:hover{
+    color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6)
+}
+
+.comment .delete{ 
+    border: 1px solid rgb(186, 3, 3);
+    color: rgb(186, 3, 3);
+}
+
+.comment .delete:hover{
+    background-color: rgb(186, 3, 3);
+}
+
+.comment .edit{ 
+    border: 1px solid rgb(233, 167, 1);
+    color: rgb(233, 167, 1);
+    margin-right: 5px;
+}
+
+.comment .edit:hover{
+    background-color: rgb(233, 167, 1);
+}

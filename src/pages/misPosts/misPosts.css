@@ -1,0 +1,38 @@
+.posts{
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    max-height: 620px;
+    overflow-y: auto;
+}
+
+.posts::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+   /* Estilos barra (thumb) de scroll */
+  .posts::-webkit-scrollbar-thumb {
+    background: rgb(1, 30, 37);
+    border-radius: 10px;
+  }
+  
+  .posts::-webkit-scrollbar-thumb:active {
+    background: rgb(1, 40, 49);
+  }
+  
+  .posts::-webkit-scrollbar-thumb:hover {
+    background: rgb(1, 40, 49);
+    box-shadow: 0 0px 1px 1px rgba(0, 0, 0, 0.31);
+  }
+  
+   /* Estilos track de scroll */
+  .posts::-webkit-scrollbar-track {
+    background: #e1e1e121;
+    border-radius: 10px;
+  }
+  
+  .posts::-webkit-scrollbar-track:hover, 
+  .posts::-webkit-scrollbar-track:active {
+    background: #e1e1e121;
+  }

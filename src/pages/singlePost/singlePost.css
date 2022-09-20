@@ -1,0 +1,123 @@
+.singlePost{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.bigPost{
+    margin: 10px auto;
+    width: 1000px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    margin: 8px;
+}
+
+.bigPost img{
+    border-radius: 8px;
+    width: 900px;
+    height: fit-content;
+    object-fit: cover;
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.6);
+}
+
+.bigPost .bigPostDate{
+    max-width: 900px;
+    height: fit-content;
+    max-height: 50px;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 10px;
+    color: rgb(161, 161, 161);
+}
+
+.bigPost .bigPostAuthor{
+    max-width: 900px;
+    height: fit-content;
+    max-height: 50px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.bigPost .bigPostAuthor span{
+    color: rgb(81, 106, 118);
+    font-weight: bold;
+}
+
+.bigPost .bigPostTitle{
+    max-width: 900px;
+    height: fit-content;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+.bigPost .bigPostCategoria{
+    color: rgb(112, 112, 112);
+    font-weight: bold;
+}
+
+.bigPost .btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.btns i{
+    margin: auto 10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btns .delete{
+    border: 1px solid rgb(186, 3, 3);
+    color: rgb(186, 3, 3);
+}
+
+.btns .delete:hover{
+    background-color: rgb(186, 3, 3);
+    color: white;
+}
+
+.btns .edit{
+    border: 1px solid rgb(225, 150, 0);
+    color: rgb(225, 150, 0);
+}
+
+.btns .edit:hover{
+    background-color: rgb(225, 150, 0);
+    color: white;
+}
+
+.bigPost .bigPostDesc{
+    margin: 20px 0;
+    margin-bottom: 40px;
+    max-width: 900px;
+    height: fit-content;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.bigPost .bigPostDesc::first-letter{
+    margin-left:30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.comments-title{
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    padding-top: 13px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
